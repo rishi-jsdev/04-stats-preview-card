@@ -25,13 +25,18 @@
 
   --ff-inter: "Inter", sans-serif;
   --ff-lexend-deca: "Lexend Deca", sans-serif;
-
-  --fw-regular: 400;
-  --fw-bold: 700;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
 }
