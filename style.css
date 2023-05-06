@@ -40,3 +40,31 @@ html {
 body {
   font-size: 1.5rem;
 }
+
+@media screen and (min-width: 300px) {
+  body {
+  }
+
+  .container {
+  }
+  .card {
+  }
+  .card__header {
+  }
+  .card__image {
+  }
+  .card__heading {
+  }
+  .hl-accent {
+  }
+  .card__body {
+  }
+  .card__description {
+  }
+  .card__stats {
+  }
+  .card__stats {
+  }
+  .card__stats-item {
+  }
+}
