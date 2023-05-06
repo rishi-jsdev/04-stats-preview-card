@@ -41,11 +41,19 @@ body {
   font-size: 1.5rem;
 }
 
+ul {
+  list-style: none;
+}
+
 @media screen and (min-width: 300px) {
   body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-
   .container {
+    width: 90%;
   }
   .card {
   }
