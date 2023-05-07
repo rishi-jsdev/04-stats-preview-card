@@ -18,32 +18,42 @@
   <body>
     <div class="container">
       <div class="card">
-        <div class="card__header">
-          <div class="card__image"></div>
+        <picture class="card__image">
+          <source
+            media="(min-width: 280px)"
+            srcset="images/image-header-mobile.jpg"
+          />
+          <source
+            media="(min-width: 1440px)"
+            srcset="images/image-header-desktop.jpg"
+          />
+          <img src="images/image-header-mobile.jpg" alt="hero profile" />
+        </picture>
+        <div class="card__info">
           <h1 class="card__heading">
-            Get <span class="hl-accent"></span> that help your business grow.
+            Get <span class="hl-accent">insights</span> that help your business
+            grow.
           </h1>
-        </div>
-        <div class="card__body">
-          <p class="card__description">
-            Get insights that help your business grow. Discover the benefits of
-            data analytics and make better decisions regarding revenue, customer
-            experience, and overall efficiency.
-          </p>
-          <ul class="card__stats">
-            <li class="card__stats-items">
-              <span>10k+</span>
-              <span>companies</span>
-            </li>
-            <li class="card__stats-items">
-              <span>314</span>
-              <span>templates</span>
-            </li>
-            <li class="card__stats-items">
-              <span>12m+</span>
-              <span>queries</span>
-            </li>
-          </ul>
+          <div class="card__body">
+            <p class="card__description">
+              Discover the benefits of data analytics and make better decisions
+              regarding revenue, customer experience, and overall efficiency.
+            </p>
+            <ul class="card__stats">
+              <li class="card__stats-item">
+                <span>10k+</span>
+                <span>companies</span>
+              </li>
+              <li class="card__stats-item">
+                <span>314</span>
+                <span>templates</span>
+              </li>
+              <li class="card__stats-item">
+                <span>12M+</span>
+                <span>queries</span>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
