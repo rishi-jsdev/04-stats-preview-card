@@ -9,14 +9,13 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Overview](#overview)
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
+  - [Mobile](#mobile)
+  - [Desktop](#desktop)
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
     - [Continued development](#continued-development)
   - [Author](#author)
-  - [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -28,29 +27,49 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<br/>
+
+## Mobile
+
+![Mobile](./screenshots/mobile.png)
+<br/>
+
+## Desktop
+
+![Desktop](./screenshots/desktop.png)
 
 ### Links
 
-- Solution URL: [[Add solution URL here](https://github.com/rishi-jsdev/04-stats-preview-card)](https://github.com/rishi-jsdev/04-stats-preview-card)
+- Solution URL: [https://github.com/rishi-jsdev/04-stats-preview-card](https://github.com/rishi-jsdev/04-stats-preview-card)
 - Live Site URL: [https://rishi-jsdev.github.io/04-stats-preview-card/](https://rishi-jsdev.github.io/04-stats-preview-card/)
+
+<br/>
+<br/>
 
 ## My process
 
+<br/>
+
 ### Built with
+
+<br/>
 
 - Semantic HTML5 markup
 - Flexbox
 - Mobile-first workflow
 
+<br/>
+
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+<br/>
+
+Learn CSS grid.
+
+<br/>
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+<br/>
 
-## Acknowledgments
+- Frontend Mentor - [@rishi-jsdev](https://www.frontendmentor.io/profile/rishi-jsdev)
