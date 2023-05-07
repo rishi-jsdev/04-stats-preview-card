@@ -48,11 +48,15 @@ body {
     gap: 2.5rem;
   }
 
-  picture.card__image {
-  }
-
-  .card__image img {
+  .card__image {
     width: 100%;
+    height: 300px;
+    background: linear-gradient(
+        hsla(277, 64%, 61%, 0.6),
+        hsla(277, 64%, 61%, 0.6)
+      ),
+      url("./images/image-header-mobile.jpg") no-repeat;
+    background-size: cover;
   }
 
   .card__info {
@@ -125,17 +129,11 @@ body {
   }
 }
 
-@media screen and (min-width: 400px) {
+/* @media screen and (min-width: 1200px) {
   .container {
     width: 80%;
   }
-}
-
-@media screen and (min-width: 540px) {
-  .container {
-    width: 70%;
-  }
-}
+} */
 
 @media screen and (min-width: 540px) {
   .container {
@@ -149,11 +147,17 @@ body {
   }
 }
 
-@media screen and (min-width: 900px) {
+/* @media screen and (min-width: 900px) {
   .container {
     width: 40%;
   }
-}
+} */
+
+/* @media screen and (min-width: 1024px) {
+  .container {
+    width: 40%;
+  }
+} */
 
 @media screen and (min-width: 1200px) {
   .container {
@@ -166,18 +170,20 @@ body {
   .card__image {
     order: 1;
     width: 50%;
+    height: auto;
     align-self: stretch;
-  }
 
-  .card__image img {
+    background: linear-gradient(
+        hsla(277, 64%, 61%, 0.6),
+        hsla(277, 64%, 61%, 0.6)
+      ),
+      url("./images/image-header-desktop.jpg");
     background-size: cover;
-    height: 100%;
   }
 
   .card__info {
     width: 50%;
     padding: 6rem;
-    gap: 3rem;
   }
 
   .card__body {
@@ -187,7 +193,7 @@ body {
   .card__stats {
     flex-direction: row;
     align-self: start;
-    gap: 5rem;
+    gap: 6rem;
   }
 
   .card__heading {
@@ -196,7 +202,7 @@ body {
 
   .card__description {
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .card__stats-item {
